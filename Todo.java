@@ -1,12 +1,14 @@
 import java.util.Scanner;
-
+ 
 public class Todo {
 
 	public static void mostraMenu() {
 		System.out.println("==========Menu==========");
 		System.out.println("1 - Adicionar tarefa");
 		System.out.println("2 - Listar Tarefas");
-		System.out.println("3 - Remover Tarefa");
+		System.out.println("3 - Marcar Como Completa");
+		System.out.println("4 - Marcar Como Incompleta");
+		System.out.println("5 - Remover Tarefa");
 		System.out.println("0 - Sair");
 		System.out.println("========================");
 		System.out.println("");
@@ -36,6 +38,20 @@ public class Todo {
 					System.out.println("");
 					break;
 				case 3:
+					System.out.println("");
+					System.out.println("=====MARCAR COMO COMPLETA=====");
+					tarefas.completaTarefa(sc);
+					System.out.println("==============================");
+					System.out.println("");				
+					break;
+				case 4: 
+					System.out.println("");
+					System.out.println("=====MARCAR COMO INCOMPLETA=====");
+					tarefas.marcaIncompleta(sc);
+					System.out.println("================================");
+					System.out.println("");	
+					break;
+				case 5:
 					tarefas.apagaTarefa(sc);
 					System.out.println("");
 					break;
