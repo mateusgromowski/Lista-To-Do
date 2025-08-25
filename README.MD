@@ -1,7 +1,7 @@
 # Lista de Tarefas em Java (To-Do List)
 
 Um projeto simples em **Java** para praticar programação básica.  
-Permite adicionar, listar e remover tarefas usando o console.
+Permite adicionar, listar, remover, marcar como incompleta e completa tarefas usando o console.
 
 ---
 
@@ -9,6 +9,8 @@ Permite adicionar, listar e remover tarefas usando o console.
 - Adicionar tarefas.  
 - Listar todas as tarefas salvas.  
 - Remover uma tarefa.  
+- Marcar a tarefa como completa.
+- Marcar a tarefa como incompleta
 - Menu interativo no console.  
 
 ---
@@ -18,3 +20,4 @@ Permite adicionar, listar e remover tarefas usando o console.
 - Scanner para entrada de dados no console. 
 
 ## Feito com amor por Mateus Barbosa Gromowski <3 
+
